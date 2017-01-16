@@ -1,3 +1,4 @@
 // Current Academic Year Parameter
-
+```
 =IIF( Month(Today()) > 8,  Year(Today()) & "-" & RIGHT(Year(Today())+1, 2), Year(Today())-1 & "-" & RIGHT(Year(Today()), 2))
+```
