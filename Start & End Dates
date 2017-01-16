@@ -1,0 +1,11 @@
+//Sets the Start Date and End date based on the current month
+
+//Start
+```=IIF(Month(Today()) > 8, DateSerial(Year(Today()), 9, 1), DateAdd("YYYY", -1, DateSerial(Year(Today()), 9, 1)))
+```
+
+//End
+```=IIF(Month(Today()) > 8, DateSerial(Year(Today()), 08, 31), DateAdd("YYYY", -1, DateSerial(Year(Today()), 08, 31)))
+```
+
+
