@@ -1,0 +1,3 @@
+//Switch Statement to convert the current month into the correct Term within the academic year: (Autumn, Spring, Summer)
+
+=Switch( Month(Today()) = 9, "Autumn", Month(Today()) = 10, "Autumn", Month(Today()) = 11, "Autumn",  Month(Today()) = 12, "Autumn",  Month(Today()) = 1, "Spring", Month(Today()) = 2, "Spring", Month(Today()) = 3, "Spring", Month(Today()) = 4, "Summer", Month(Today()) = 5, "Summer", Month(Today()) = 6, "Summer", Month(Today()) = 7, "Summer", Month(Today()) = 8, "Summer" )
