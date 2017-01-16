@@ -1,0 +1,4 @@
+//Parameter that provides a list of academic years to select from.
+
+1) Label: =IIF() & " ← Current") & " ← Current") & " ← Current") & " ← Current"
+1) Value: =IIF())))
