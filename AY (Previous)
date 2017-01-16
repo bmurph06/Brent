@@ -1,4 +1,4 @@
 //Previous Academic Year Parameter
-```VBS
+```VBScript
 =IIF( Month(Today()) > 8,  Year(Today())-1 & "-" & RIGHT(Year(Today()), 2), Year(Today())-2 & "-" & RIGHT(Year(Today())-1, 2))
 ```
