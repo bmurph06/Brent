@@ -1,4 +1,12 @@
-//Parameter that provides a list of academic years to select from.
-
-1) Label: =IIF() & " ← Current") & " ← Current") & " ← Current") & " ← Current"
-1) Value: =IIF())))
+//Parameter that provides a list of academic years to select from.  
+(LABEL)=IIF( Month(Today()) > 8,  Year(Today())&"-"&RIGHT(Year(Today())+1, 2), (Year(Today())-1)&"-"&RIGHT(Year(Today()), 2)) & " ← Current"  
+=IIF( Month(Today()) > 8,  Year(Today())&"-"&RIGHT(Year(Today())+1, 2), (Year(Today())-1)&"-"&RIGHT(Year(Today()), 2))  
+=IIF( Month(Today()) > 8,  (Year(Today())-1)&"-"&RIGHT(Year(Today()), 2), (Year(Today())-2)&"-"&RIGHT((Year(Today())-1), 2))  
+=IIF( Month(Today()) > 8,  (Year(Today())-2)&"-"&RIGHT((Year(Today())-1), 2), (Year(Today())-3)&"-"&RIGHT((Year(Today())-2), 2))  
+=IIF( Month(Today()) > 8,  (Year(Today())-3)&"-"&RIGHT((Year(Today())-2), 2), (Year(Today())-4)&"-"&RIGHT((Year(Today())-3), 2))  
+=IIF( Month(Today()) > 8,  (Year(Today())-4)&"-"&RIGHT((Year(Today())-3), 2), (Year(Today())-5)&"-"&RIGHT((Year(Today())-4), 2))  
+=IIF( Month(Today()) > 8,  (Year(Today())-5)&"-"&RIGHT((Year(Today())-4), 2), (Year(Today())-6)&"-"&RIGHT((Year(Today())-5), 2))  
+=IIF( Month(Today()) > 8,  (Year(Today())-6)&"-"&RIGHT((Year(Today())-5), 2), (Year(Today())-7)&"-"&RIGHT((Year(Today())-6), 2))  
+=IIF( Month(Today()) > 8,  (Year(Today())-7)&"-"&RIGHT((Year(Today())-6), 2), (Year(Today())-8)&"-"&RIGHT((Year(Today())-7), 2))  
+=IIF( Month(Today()) > 8,  (Year(Today())-8)&"-"&RIGHT((Year(Today())-7), 2), (Year(Today())-9)&"-"&RIGHT((Year(Today())-8), 2))  
+=IIF( Month(Today()) > 8,  (Year(Today())-9)&"-"&RIGHT((Year(Today())-8), 2), (Year(Today())-10)&"-"&RIGHT((Year(Today())-9), 2))
