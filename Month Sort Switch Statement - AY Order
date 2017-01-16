@@ -1,0 +1,3 @@
+//Sorts months into the correct order for an Academic Year, ie. Sept - Aug
+
+=Switch( Month(Today()) = 9, 1, Month(Today()) = 10, 2, Month(Today()) = 11, 3, Month(Today()) = 12, 4,  Month(Today()) = 1, 5, Month(Today()) = 2, 6, Month(Today()) = 3, 7, Month(Today()) = 4, 8, Month(Today()) = 5, 9, Month(Today()) = 6, 10, Month(Today()) = 7, 11, Month(Today()) = 8, 12)
